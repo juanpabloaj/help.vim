@@ -1,4 +1,4 @@
-##help.vim
+#help.vim
 Simplify help navigation.
 ###maps
 

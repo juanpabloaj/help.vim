@@ -9,6 +9,7 @@ nnoremap <buffer> O ?'\l\{2,\}'<CR>
 nnoremap <buffer> s /\|\zs\S\+\ze\|<CR>
 nnoremap <buffer> S ?\|\zs\S\+\ze\|<CR>
 nnoremap <buffer><silent> c :call GoContent()<cr>
+nn <buffer> q ZQ
 " GoContent : to content list {{{
 fun! GoContent()
 	try
